@@ -8,15 +8,15 @@ def intex():
     
 @app.route("/home")
 def home():
-    return "Welcome to Our Home Page"
+    return render_template('home.html')
 
 @app.route("/contacts")
 def contact():
-    return "These are your Contacts"
+    return render_template('contacts.html')
 
 @app.route("/about")
 def about():
-    return "Know more about us"
+    return render_template('about.html')
 
 if (__name__=="__main__"):
     app.run(debug=True)
