@@ -1,4 +1,5 @@
 {
     "http.proxySupport": "on",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "http.proxy": "http://192.168.1.1:808"
 }
